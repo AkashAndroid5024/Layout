@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/fire"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:text="National Disaster Management Authority (NDMA) API: This API provides real-time data on natural disasters such as earthquakes, floods, and cyclones in India. It offers information on disaster alerts, warnings, and relief operations.
+
+OpenWeatherMap API: This API provides real-time weather data for various locations in India, including temperature, humidity, wind speed, and precipitation. It can be useful in monitoring weather-related disasters such as floods, landslides, and droughts.
+
+AirVisual API: This API provides real-time air quality data for various locations in India, including air pollution levels of PM2.5, PM10, ozone, and nitrogen dioxide. It can be useful in monitoring air quality during disasters such as wildfires and industrial accidents.
+
+Indian Meteorological Department (IMD) API: This API provides real-time weather data and forecasts for various regions in India. It can be useful in monitoring weather-related disasters such as cyclones, floods, and droughts.
+
+National Remote Sensing Centre (NRSC) API: This API provides real-time satellite data for various regions in India. It can be useful in monitoring natural disasters such as floods, landslides, and forest fires.
+
+Indian Railways API: This API provides real-time information on train schedules, fares, and availability for Indian Railways. It can be useful in disaster situations where transportation is disrupted or emergency response teams need to be deployed."
+            android:textSize="15sp" />
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/fire"
+
+        />
+
+
+</LinearLayout>
+
